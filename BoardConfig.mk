@@ -20,3 +20,8 @@ TARGET_KERNEL_CONFIG := beryllium_defconfig
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
+# TWRP Support
+ifeq ($(WITH_TWRP),true)
+-include $(DEVICE_PATH)/twrp.mk
+endif
