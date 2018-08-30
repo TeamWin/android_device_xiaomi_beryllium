@@ -83,8 +83,8 @@ framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
-# Time services - from dipper - OPM1.171019.011
-vendor/bin/time_daemon:bin/time_daemon|217bc99fa738b2888f4f26c00b0976316dca2b5a
+# Time services
+vendor/bin/time_daemon:bin/time_daemon
 
 # VNDK
 lib64/android.frameworks.displayservice@1.0.so:lib64/vndk-compat/android.frameworks.displayservice@1.0.so
@@ -118,7 +118,6 @@ lib64/android.hardware.light@2.0.so:lib64/vndk-compat/android.hardware.light@2.0
 lib64/android.hardware.media@1.0.so:lib64/vndk-compat/android.hardware.media@1.0.so
 lib64/android.hardware.media.omx@1.0.so:lib64/vndk-compat/android.hardware.media.omx@1.0.so
 lib64/android.hardware.memtrack@1.0.so:lib64/vndk-compat/android.hardware.memtrack@1.0.so
-lib64/android.hardware.nfc@1.0.so:lib64/vndk-compat/android.hardware.nfc@1.0.so
 lib64/android.hardware.power@1.0.so:lib64/vndk-compat/android.hardware.power@1.0.so
 lib64/android.hardware.radio@1.0.so:lib64/vndk-compat/android.hardware.radio@1.0.so
 lib64/android.hardware.radio.deprecated@1.0.so:lib64/vndk-compat/android.hardware.radio.deprecated@1.0.so
@@ -177,7 +176,6 @@ lib64/libimg_utils.so:lib64/vndk-compat/libimg_utils.so
 lib64/libinput.so:lib64/vndk-compat/libinput.so
 lib64/libjavacore.so:lib64/vndk-compat/libjavacore.so
 lib64/libjpeg.so:lib64/vndk-compat/libjpeg.so
-lib64/libkeymaster1.so:lib64/vndk-compat/libkeymaster1.so
 lib64/libkeymaster_messages.so:lib64/vndk-compat/libkeymaster_messages.so
 lib64/libldacBT_abr.so:lib64/vndk-compat/libldacBT_abr.so
 lib64/libldacBT_enc.so:lib64/vndk-compat/libldacBT_enc.so
@@ -197,7 +195,6 @@ lib64/libnativeloader.so:lib64/vndk-compat/libnativeloader.so
 lib64/libnativewindow.so:lib64/vndk-compat/libnativewindow.so
 lib64/libnetutils.so:lib64/vndk-compat/libnetutils.so
 lib64/libnl.so:lib64/vndk-compat/libnl.so
-lib64/libopus.so:lib64/vndk-compat/libopus.so
 lib64/libpackagelistparser.so:lib64/vndk-compat/libpackagelistparser.so
 lib64/libpagemap.so:lib64/vndk-compat/libpagemap.so
 lib64/libpcre2.so:lib64/vndk-compat/libpcre2.so
@@ -211,7 +208,6 @@ lib64/libprocinfo.so:lib64/vndk-compat/libprocinfo.so
 lib64/libprotobuf-cpp-full.so:lib64/vndk-compat/libprotobuf-cpp-full.so
 lib64/libprotobuf-cpp-lite.so:lib64/vndk-compat/libprotobuf-cpp-lite.so
 lib64/libradio_metadata.so:lib64/vndk-compat/libradio_metadata.so
-lib64/libradio.so:lib64/vndk-compat/libradio.so
 lib64/libregionalization.so:lib64/vndk-compat/libregionalization.so
 lib64/libRScpp.so:lib64/vndk-compat/libRScpp.so
 lib64/libselinux.so:lib64/vndk-compat/libselinux.so
@@ -225,29 +221,17 @@ lib64/libsqlite.so:lib64/vndk-compat/libsqlite.so
 lib64/libssl.so:lib64/vndk-compat/libssl.so
 lib64/libstagefright_amrnb_common.so:lib64/vndk-compat/libstagefright_amrnb_common.so
 lib64/libstagefright_enc_common.so:lib64/vndk-compat/libstagefright_enc_common.so
+lib64/libstagefright_flacdec.so:lib64/vndk-compat/libstagefright_flacdec.so
 lib64/libstagefright_foundation.so:lib64/vndk-compat/libstagefright_foundation.so
-lib64/libstagefright_omx.so:lib64/vndk-compat/libstagefright_omx.so|90dfb1584b229e2e15d90c898bdc62db37d0fd1b
+lib64/libstagefright_httplive.so:lib64/vndk-compat/libstagefright_httplive.so
+lib64/libstagefright_omx.so:lib64/vndk-compat/libstagefright_omx.so
+lib64/libstagefright_omx_utils.so:lib64/vndk-compat/libstagefright_omx_utils.so
 lib64/libstagefright_soft_aacdec.so:lib64/vndk-compat/libstagefright_soft_aacdec.so
 lib64/libstagefright_soft_aacenc.so:lib64/vndk-compat/libstagefright_soft_aacenc.so
-lib64/libstagefright_soft_amrdec.so:lib64/vndk-compat/libstagefright_soft_amrdec.so
-lib64/libstagefright_soft_amrnbenc.so:lib64/vndk-compat/libstagefright_soft_amrnbenc.so
-lib64/libstagefright_soft_amrwbenc.so:lib64/vndk-compat/libstagefright_soft_amrwbenc.so
-lib64/libstagefright_soft_avcdec.so:lib64/vndk-compat/libstagefright_soft_avcdec.so
-lib64/libstagefright_soft_avcenc.so:lib64/vndk-compat/libstagefright_soft_avcenc.so
-lib64/libstagefright_soft_flacenc.so:lib64/vndk-compat/libstagefright_soft_flacenc.so
-lib64/libstagefright_soft_g711dec.so:lib64/vndk-compat/libstagefright_soft_g711dec.so
-lib64/libstagefright_soft_gsmdec.so:lib64/vndk-compat/libstagefright_soft_gsmdec.so
-lib64/libstagefright_soft_hevcdec.so:lib64/vndk-compat/libstagefright_soft_hevcdec.so
-lib64/libstagefright_soft_mp3dec.so:lib64/vndk-compat/libstagefright_soft_mp3dec.so
-lib64/libstagefright_soft_mpeg2dec.so:lib64/vndk-compat/libstagefright_soft_mpeg2dec.so
-lib64/libstagefright_soft_mpeg4dec.so:lib64/vndk-compat/libstagefright_soft_mpeg4dec.so
-lib64/libstagefright_soft_mpeg4enc.so:lib64/vndk-compat/libstagefright_soft_mpeg4enc.so
-lib64/libstagefright_soft_opusdec.so:lib64/vndk-compat/libstagefright_soft_opusdec.so
-lib64/libstagefright_soft_rawdec.so:lib64/vndk-compat/libstagefright_soft_rawdec.so
-lib64/libstagefright_soft_vorbisdec.so:lib64/vndk-compat/libstagefright_soft_vorbisdec.so
-lib64/libstagefright_soft_vpxdec.so:lib64/vndk-compat/libstagefright_soft_vpxdec.so
-lib64/libstagefright_soft_vpxenc.so:lib64/vndk-compat/libstagefright_soft_vpxenc.so
-lib64/libstagefright_xmlparser@1.0.so:lib64/vndk-compat/libstagefright_xmlparser@1.0.so
+lib64/libstagefright_soft_qtiflacdec.so:lib64/vndk-compat/libstagefright_soft_qtiflacdec.so
+lib64/libstagefright_wfd.so:lib64/vndk-compat/libstagefright_wfd.so
+lib64/libstagefright_xmlparser.so:lib64/vndk-compat/libstagefright_xmlparser.so
+lib64/libstagefright_http_support.so:lib64/vndk-compat/libstagefright_http_support.so
 lib64/libsuspend.so:lib64/vndk-compat/libsuspend.so
 lib64/libsysutils.so:lib64/vndk-compat/libsysutils.so
 lib64/libtinyalsa.so:lib64/vndk-compat/libtinyalsa.so
@@ -264,7 +248,6 @@ lib64/libwifi-service.so:lib64/vndk-compat/libwifi-service.so
 lib64/libwifi-system.so:lib64/vndk-compat/libwifi-system.so
 lib64/libxml2.so:lib64/vndk-compat/libxml2.so
 lib64/libziparchive.so:lib64/vndk-compat/libziparchive.so
-lib64/vendor.xiaomi.hardware.tpdbg@1.0.so:lib64/vndk-compat/vendor.xiaomi.hardware.tpdbg@1.0.so
 lib/android.frameworks.schedulerservice@1.0.so:lib/vndk-compat/android.frameworks.schedulerservice@1.0.so
 lib/android.frameworks.sensorservice@1.0.so:lib/vndk-compat/android.frameworks.sensorservice@1.0.so
 lib/android.frameworks.vr.composer@1.0.so:lib/vndk-compat/android.frameworks.vr.composer@1.0.so
@@ -294,7 +277,6 @@ lib/android.hardware.light@2.0.so:lib/vndk-compat/android.hardware.light@2.0.so
 lib/android.hardware.media@1.0.so:lib/vndk-compat/android.hardware.media@1.0.so
 lib/android.hardware.media.omx@1.0.so:lib/vndk-compat/android.hardware.media.omx@1.0.so
 lib/android.hardware.memtrack@1.0.so:lib/vndk-compat/android.hardware.memtrack@1.0.so
-lib/android.hardware.nfc@1.0.so:lib/vndk-compat/android.hardware.nfc@1.0.so
 lib/android.hardware.power@1.0.so:lib/vndk-compat/android.hardware.power@1.0.so
 lib/android.hardware.radio@1.0.so:lib/vndk-compat/android.hardware.radio@1.0.so
 lib/android.hardware.radio.deprecated@1.0.so:lib/vndk-compat/android.hardware.radio.deprecated@1.0.so
@@ -318,7 +300,6 @@ lib/libaudioclient.so:lib/vndk-compat/libaudioclient.so
 lib/libaudiomanager.so:lib/vndk-compat/libaudiomanager.so
 lib/libaudioroute.so:lib/vndk-compat/libaudioroute.so
 lib/libaudioutils.so:lib/vndk-compat/libaudioutils.so
-lib/libavservices_minijail.so:lib/vndk-compat/libavservices_minijail.so
 lib/libbinder.so:lib/vndk-compat/libbinder.so
 lib/libcamera_client.so:lib/vndk-compat/libcamera_client.so
 lib/libcamera_metadata.so:lib/vndk-compat/libcamera_metadata.so
@@ -347,7 +328,6 @@ lib/libjpeg.so:lib/vndk-compat/libjpeg.so
 lib/libldacBT_abr.so:lib/vndk-compat/libldacBT_abr.so
 lib/libldacBT_enc.so:lib/vndk-compat/libldacBT_enc.so
 lib/liblz4.so:lib/vndk-compat/liblz4.so
-lib/libmediacodecservice.so:lib/vndk-compat/libmediacodecservice.so
 lib/libmediadrm.so:lib/vndk-compat/libmediadrm.so
 lib/libmedia_helper.so:lib/vndk-compat/libmedia_helper.so
 lib/libmediametrics.so:lib/vndk-compat/libmediametrics.so
@@ -355,7 +335,6 @@ lib/libmedia.so:lib/vndk-compat/libmedia.so
 lib/libmediautils.so:lib/vndk-compat/libmediautils.so
 lib/libmemtrack.so:lib/vndk-compat/libmemtrack.so
 lib/libmemunreachable.so:lib/vndk-compat/libmemunreachable.so
-lib/libminijail.so:lib/vndk-compat/libminijail.so
 lib/libminikin.so:lib/vndk-compat/libminikin.so
 lib/libnativebridge.so:lib/vndk-compat/libnativebridge.so
 lib/libnativehelper.so:lib/vndk-compat/libnativehelper.so
@@ -376,7 +355,6 @@ lib/libprocinfo.so:lib/vndk-compat/libprocinfo.so
 lib/libprotobuf-cpp-full.so:lib/vndk-compat/libprotobuf-cpp-full.so
 lib/libprotobuf-cpp-lite.so:lib/vndk-compat/libprotobuf-cpp-lite.so
 lib/libradio_metadata.so:lib/vndk-compat/libradio_metadata.so
-lib/libradio.so:lib/vndk-compat/libradio.so
 lib/libregionalization.so:lib/vndk-compat/libregionalization.so
 lib/libRScpp.so:lib/vndk-compat/libRScpp.so
 lib/libselinux.so:lib/vndk-compat/libselinux.so
@@ -390,7 +368,7 @@ lib/libssl.so:lib/vndk-compat/libssl.so
 lib/libstagefright_amrnb_common.so:lib/vndk-compat/libstagefright_amrnb_common.so
 lib/libstagefright_enc_common.so:lib/vndk-compat/libstagefright_enc_common.so
 lib/libstagefright_foundation.so:lib/vndk-compat/libstagefright_foundation.so
-lib/libstagefright_omx.so:lib/vndk-compat/libstagefright_omx.so|a53babcf39bd3d32c648bac090e1cdc0665dd3e3
+lib/libstagefright_omx.so:lib/vndk-compat/libstagefright_omx.so
 lib/libstagefright_soft_aacdec.so:lib/vndk-compat/libstagefright_soft_aacdec.so
 lib/libstagefright_soft_aacenc.so:lib/vndk-compat/libstagefright_soft_aacenc.so
 lib/libstagefright_soft_amrdec.so:lib/vndk-compat/libstagefright_soft_amrdec.so
@@ -411,7 +389,7 @@ lib/libstagefright_soft_rawdec.so:lib/vndk-compat/libstagefright_soft_rawdec.so
 lib/libstagefright_soft_vorbisdec.so:lib/vndk-compat/libstagefright_soft_vorbisdec.so
 lib/libstagefright_soft_vpxdec.so:lib/vndk-compat/libstagefright_soft_vpxdec.so
 lib/libstagefright_soft_vpxenc.so:lib/vndk-compat/libstagefright_soft_vpxenc.so
-lib/libstagefright_xmlparser@1.0.so:lib/vndk-compat/libstagefright_xmlparser@1.0.so
+lib/libstagefright_xmlparser.so:lib/vndk-compat/libstagefright_xmlparser.so
 lib/libsuspend.so:lib/vndk-compat/libsuspend.so
 lib/libsysutils.so:lib/vndk-compat/libsysutils.so
 lib/libtinyalsa.so:lib/vndk-compat/libtinyalsa.so
@@ -427,7 +405,6 @@ lib/libvulkan.so:lib/vndk-compat/libvulkan.so
 lib/libwifi-service.so:lib/vndk-compat/libwifi-service.so
 lib/libxml2.so:lib/vndk-compat/libxml2.so
 lib/libziparchive.so:lib/vndk-compat/libziparchive.so
-lib/vendor.xiaomi.hardware.tpdbg@1.0.so:lib/vndk-compat/vendor.xiaomi.hardware.tpdbg@1.0.so
 
 # VNDK-SP
 lib64/vndk-sp/android.hardware.graphics.allocator@2.0.so:lib64/vndk-sp-compat/android.hardware.graphics.allocator@2.0.so
