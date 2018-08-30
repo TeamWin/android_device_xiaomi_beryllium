@@ -7,16 +7,16 @@
 # Inherit from sdm845-common
 -include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/polaris
+DEVICE_PATH := device/xiaomi/beryllium
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := polaris
+TARGET_OTA_ASSERT_DEVICE := beryllium
 
 # Kernel
-TARGET_KERNEL_CONFIG := polaris_defconfig
+TARGET_KERNEL_CONFIG := beryllium_defconfig
 
 # Inherit from the proprietary version
--include vendor/xiaomi/polaris/BoardConfigVendor.mk
+-include vendor/xiaomi/beryllium/BoardConfigVendor.mk
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private

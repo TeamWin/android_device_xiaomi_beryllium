@@ -1,11 +1,11 @@
 Copyright (C) 2018 The LineageOS Project
 
-Device configuration for Xiaomi MIX 2S
+Device configuration for Xiaomi Poco F1
 =========================================
 
-The Xiaomi MIX 2S (codenamed _"polaris"_) is a high-end smartphone from Xiaomi.
+The Xiaomi Poco F1 (codenamed _"beryllium"_) is a high-end smartphone from Xiaomi.
 
-It was announced in March 2018. Release date was April 2018.
+It was announced in July 2018. Release date was August 2018.
 
 ## Device specifications
 

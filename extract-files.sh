@@ -7,7 +7,7 @@
 
 set -e
 
-export DEVICE=polaris
+export DEVICE=beryllium
 export DEVICE_COMMON=sdm845-common
 export VENDOR=xiaomi
 
