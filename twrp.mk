@@ -15,3 +15,8 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MAX_BRIGHTNESS := 255
 TW_THEME := portrait_hdpi
 TW_SCREEN_BLANK_ON_BOOT := true
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
+
+PRODUCT_COPY_FILES += \
+    device/xiaomi/beryllium/twrp/recovery/root/init.recovery.usb.rc:recovery/root/init.recovery.usb.rc
