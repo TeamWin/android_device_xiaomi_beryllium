@@ -15,12 +15,12 @@ SoC     | Qualcomm SDM845 Snapdragon 845
 CPU     | Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.8 GHz Kryo 385 Silver)
 GPU     | Adreno 630
 Memory  | 6/8 GB RAM
-Shipped Android Version | 8.0 with MIUI 9.5
+Shipped Android Version | 8.1 with MIUI 9.5
 Storage | 64/128/256 GB
-Battery | Non-removable Li-Ion 3400 mAh battery
-Display | 1080 x 2160 pixels, 18:9 ratio, 5.99 inches, IPS LCD (~403 ppi density)
-Camera  | Dual 12 MP, 4-axis OIS, 2x optical zoom, dual PDAF, dual-LED (dual tone) flash
+Battery | Non-removable Li-Ion 4000 mAh battery
+Display | 2246 x 1080 pixels, 18.7:9 ratio, 6.18 inches, IPS LCD (~403 ppi density)
+Camera  | 12+5 MP, EIS, dual PDAF, dual-LED (dual tone) flash
 
 ## Device picture
 
-![Xiaomi MIX 2S](https://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-mix-2s-6gb64gb-dual-sim-ceramic-black-01_16852_1522169412.jpg "Xiaomi MIX 2S in ceramic black")
+![Xiaomi Poco F1](https://https://i01.appmifile.com/webfile/globalimg/products/pc/poco/version-grey.png "Xiaomi Poco F1 Grey")
