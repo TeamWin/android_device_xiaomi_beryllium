@@ -23,4 +23,4 @@ Camera  | 12+5 MP, EIS, dual PDAF, dual-LED (dual tone) flash
 
 ## Device picture
 
-![Xiaomi Poco F1](https://https://i01.appmifile.com/webfile/globalimg/products/pc/poco/version-grey.png "Xiaomi Poco F1 Grey")
+![Xiaomi Poco F1](https://i01.appmifile.com/webfile/globalimg/products/pc/poco/version-grey.png "Xiaomi Poco F1 Grey")
