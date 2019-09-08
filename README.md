@@ -23,4 +23,4 @@ Camera  | Dual 12 MP, 4-axis OIS, 2x optical zoom, dual PDAF, dual-LED (dual ton
 
 ## Device picture
 
-![Xiaomi MIX 2S](https://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-mix-2s-6gb64gb-dual-sim-ceramic-black-01_16852_1522169412.jpg "Xiaomi MIX 2S in ceramic black")
+![Xiaomi Poco F1](http://blog.mi.com/en/wp-content/uploads/2018/08/POCOPHONE-F1_17-1024x576.png "Poco F1 in Rosso Red")
