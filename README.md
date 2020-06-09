@@ -17,10 +17,10 @@ GPU     | Adreno 630
 Memory  | 6/8 GB RAM
 Shipped Android Version | 8.0 with MIUI 9.5
 Storage | 64/128/256 GB
-Battery | Non-removable Li-Ion 3400 mAh battery
+Battery | Non-removable Li-Ion 4000 mAh battery
 Display | 1080 x 2160 pixels, 18:9 ratio, 5.99 inches, IPS LCD (~403 ppi density)
 Camera  | Dual 12 MP, 4-axis OIS, 2x optical zoom, dual PDAF, dual-LED (dual tone) flash
 
 ## Device picture
 
-![Xiaomi MIX 2S](https://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-mix-2s-6gb64gb-dual-sim-ceramic-black-01_16852_1522169412.jpg "Xiaomi MIX 2S in ceramic black")
+![Xiaomi POCO F1](https://xiaomi-mi.com/uploads/CatalogueImage/pvm_02k_17131_1534951297.jpg)
