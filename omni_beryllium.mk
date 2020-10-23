@@ -15,23 +15,23 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := dipper
+PRODUCT_RELEASE_NAME := beryllium
 
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_dipper
-PRODUCT_DEVICE := dipper
+# Device identifier. This must come after all inclusions
+PRODUCT_NAME := omni_beryllium
+PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 8
+PRODUCT_MODEL := POCO F1
 PRODUCT_MANUFACTURER := Xiaomi
 
-TARGET_VENDOR_PRODUCT_NAME := dipper
-TARGET_VENDOR_DEVICE_NAME := dipper
+TARGET_VENDOR_PRODUCT_NAME := beryllium
+TARGET_VENDOR_DEVICE_NAME := beryllium
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=dipper \
-    BUILD_PRODUCT=dipper \
-    PRODUCT_NAME=dipper
+    TARGET_DEVICE=beryllium \
+    BUILD_PRODUCT=beryllium \
+    PRODUCT_NAME=beryllium

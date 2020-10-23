@@ -14,5 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_dipper-eng
+add_lunch_combo omni_beryllium-userdebug
+add_lunch_combo omni_beryllium-eng
 
