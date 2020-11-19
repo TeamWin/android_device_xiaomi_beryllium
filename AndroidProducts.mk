@@ -16,3 +16,6 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_beryllium.mk
 
+COMMON_LUNCH_CHOICES := \
+    omni_beryllium-userdebug \
+    omni_beryllium-eng

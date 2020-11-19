@@ -1,3 +1,7 @@
+<!--
+    Input:
+        compatibility_matrix.xml
+-->
 <compatibility-matrix version="1.0" type="device">
     <hal format="hidl" optional="false">
         <name>android.frameworks.schedulerservice</name>
@@ -55,4 +59,7 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <vendor-ndk>
+        <version>29</version>
+    </vendor-ndk>
 </compatibility-matrix>
