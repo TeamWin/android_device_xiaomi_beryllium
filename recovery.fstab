@@ -26,6 +26,7 @@
 /efsc          emmc   /dev/block/bootdevice/by-name/fsc                          flags=backup=1;subpartitionof=/efs1
 /efsg          emmc   /dev/block/bootdevice/by-name/fsg                          flags=backup=1;subpartitionof=/efs1
 /persist       ext4   /dev/block/bootdevice/by-name/persist                      flags=display="Persist"
+/persist_image emmc   /dev/block/bootdevice/by-name/persist                      flags=display="Persist";backup=1;flashimg=1
 /storage       ext4   /data/media/0                                              flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
 
 # Removable storage
